@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+header {
+    height: 72px;
+    background-color: rgb(30,30,30);
+}
+.head-container {
+    display: flex;
+}
+.head-left {
+    width: 50%;
+}
+#logo {
+    height: 60px;
+    width: auto;
+    margin: 6px 0px 6px 60px;
+}
+.head-right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav {
+    font-size: 18px;
+    margin: 27px 30px;
+    color: whitesmoke;
+}
+.jumbo-contain {
+    height: 400px;
+    width: 100%;
+    background-image: url('./images/jumbo-back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.jumbotron {
+    background-color: rgb(27,27,27, 0.6);
+    height: 100%;
+    width: 100%;
+}
+.jumbo-text {
+    position: relative;
+    top: 150px;
+    left: 15%;
+}
+.jumbotron h1 {
+    color: rgb(255, 203, 31);
+    font-size: 48px;
+}
+.jumbotron h2 {
+    color: whitesmoke;
+    font-weight: lighter;
+    letter-spacing: 4px;
+}
+.divider {
+    background: linear-gradient(90deg, rgb(43, 43, 43) 10%, rgb(151, 151, 151) 30%);
+    padding: 32px 0px;
+}
+.banner {
+    background-color: rgb(255, 203, 31);
+    width: 80%;
+}
+.banner2 {
+    background-color: rgb(255, 203, 31);
+    width: 80%;
+    padding: 10px 0px;
+}
+.banner2 h2 {
+    margin-left: 48px;
+    padding-bottom: 5px;
+}
+.banner2 h3 {
+    margin-left: 18px;
+    width: 80%;
+}
+.wrapper {
+    background: linear-gradient(90deg, rgb(43, 43, 43) 10%, rgb(151, 151, 151) 30%);
+    padding: 32px 0px;
+    width: 100%;
+}
+.banner h3 {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 18px 0px;
+}
+.main-content {
+    background: linear-gradient(90deg, rgb(43, 43, 43) 10%, rgb(151, 151, 151) 30%);
+}
+.section-1, .section-2, .section-3 {
+    display: flex;
+    color: whitesmoke;
+    width: 80%;
+    margin: auto;
+    padding: 24px 0px;
+    line-height: 1.5em;
+}
+ul {
+    margin-left: 32px;
+}
+.s1-left, .s3-left {
+width: 70%;
+margin: auto;
+}
+.s1-left h2, .s3-left h2 {
+    border-bottom: solid rgb(255, 203, 31) 2px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+}
+.s1-right, .s3-right {
+width: 30%;
+}
+.s1-right img, .s3-right img {
+    width: 80%;
+    height: auto;
+    margin: 10% 10%;
+}
+.s2-left {
+width: 30%;
+}
+.s2-right {
+width: 70%;
+}
+.s2-right h2 {
+    border-bottom: solid rgb(255, 203, 31) 2px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+}
+.s2-left img {
+    width: 80%;
+    height: auto;
+    margin: 10% 10%;
+}
+.sub-content {
+    background: url('./images/wood.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: lighter;
+    height: 450px;
+}
+.sc-left {
+width: 70%;
+text-align: center;
+}
+.sc-right {
+width: 30%;
+}
+.sc-right img {
+    width: 80%;
+    height: auto;
+}
+.sc-filter {
+    background-color: rgb(27,27,27, 0.6);
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.sc-left h1 {
+    margin: 24px 35% 18px 35%;
+    padding: 12px;
+    width: 30%;
+    border-bottom: solid rgb(255, 203, 31) 2px;
+    color: rgb(255, 203, 31);
+    color: whitesmoke;
+}
+.sc-left h2 {
+    margin: 30px 15% 0 15%;
+    width: 70%;
+    padding: 20px 15px 30px 15px;
+    background-color: rgba(255, 203, 31, 0.8);
+    color: black;
+    border-radius: 5px;
+    line-height: 2em;
+}
+.sc-right img {
+    width: 60%;
+    height: auto;
+    margin: 0% 20%;
+    margin-top: 100px;
+}
+footer {
+    display: flex;
+    background-color: rgb(43, 43, 43);
+    height: 300px;
+}
+.foot-left{
+
+}
+.foot-right{
+
+}
