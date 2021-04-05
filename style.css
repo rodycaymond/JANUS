@@ -30,6 +30,9 @@ header {
     display: flex;
     justify-content: flex-end;
 }
+.head-right p:hover {
+    border-bottom: 2px solid rgb(255, 203, 31);
+}
 .nav {
     font-size: 18px;
     margin: 27px 30px;
@@ -69,19 +72,23 @@ header {
 .banner {
     background-color: rgb(255, 203, 31);
     width: 80%;
+    box-shadow: 0 0 3px black;
 }
 .banner2 {
     background-color: rgb(255, 203, 31);
     width: 80%;
     padding: 10px 0px;
+    box-shadow: 0 0 3px black;
 }
 .banner2 h2 {
-    margin-left: 48px;
+    margin:auto;
     padding-bottom: 5px;
+    text-align: center;
 }
 .banner2 h3 {
-    margin-left: 18px;
     width: 80%;
+    margin: auto;
+    text-align: center;
 }
 .wrapper {
     background: linear-gradient(90deg, rgb(43, 43, 43) 10%, rgb(151, 151, 151) 30%);
@@ -192,10 +199,22 @@ footer {
     display: flex;
     background-color: rgb(43, 43, 43);
     height: 300px;
+    color: white;
+}
+footer p {
+    padding: 10px 0px;
 }
 .foot-left{
-
+    width: 50%;
+}
+.f-contain {
+    padding-top: 48px;
+    width: 80%;
+    margin: auto;
 }
 .foot-right{
-
+    width: 50%;
+}
+.yellow {
+    color:rgb(255, 203, 31);
 }
