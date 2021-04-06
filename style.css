@@ -19,6 +19,13 @@ header {
 }
 .head-left {
     width: 50%;
+    display: flex
+}
+.head-left p {
+    color: whitesmoke;
+    position: relative;
+    top: 40%;
+    margin: 0px 3px;
 }
 #logo {
     height: 60px;
@@ -109,8 +116,10 @@ header {
     color: whitesmoke;
     width: 80%;
     margin: auto;
-    padding: 24px 0px;
+    padding: 24px 24px;
     line-height: 1.5em;
+    background-color: rgb(27,27,27, 0.6);
+    box-shadow: 0 0 3px whitesmoke;
 }
 ul {
     margin-left: 32px;
@@ -156,13 +165,13 @@ width: 70%;
     height: 450px;
 }
 .sc-left {
-width: 70%;
-text-align: center;
+    width: 30%;
 }
 .sc-right {
-width: 30%;
+    width: 70%;
+    text-align: center;
 }
-.sc-right img {
+.sc-left img {
     width: 80%;
     height: auto;
 }
@@ -172,7 +181,7 @@ width: 30%;
     width: 100%;
     display: flex;
 }
-.sc-left h1 {
+.sc-right h1 {
     margin: 24px 35% 18px 35%;
     padding: 12px;
     width: 30%;
@@ -180,7 +189,7 @@ width: 30%;
     color: rgb(255, 203, 31);
     color: whitesmoke;
 }
-.sc-left h2 {
+.sc-right h2 {
     margin: 30px 15% 0 15%;
     width: 70%;
     padding: 20px 15px 30px 15px;
@@ -189,7 +198,7 @@ width: 30%;
     border-radius: 5px;
     line-height: 2em;
 }
-.sc-right img {
+.sc-left img {
     width: 60%;
     height: auto;
     margin: 0% 20%;
@@ -217,4 +226,38 @@ footer p {
 }
 .yellow {
     color:rgb(255, 203, 31);
+}
+@media only screen and (max-width: 980px){
+.sc-left {
+    display: none;
+}
+.sc-right {
+    width: 100%;
+}
+.banner, .banner2 {
+    width: 100%;
+}
+}
+@media only screen and (max-width: 640px){
+.head-left p {
+    display: none;
+}
+.head-left {
+    width: 30%;
+}
+.head-right {
+    width: 70%;
+}
+.s1-right, .s3-right {
+    display: none;
+}
+.s2-left {
+    display: none;
+}
+.s1-left, .s3-left {
+    width: 100%;
+}
+.s2-right {
+    width: 100%;
+}
 }
