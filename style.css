@@ -247,6 +247,7 @@ footer p {
 }
 .head-right {
     width: 70%;
+    text-align: center;
 }
 .s1-right, .s3-right {
     display: none;
