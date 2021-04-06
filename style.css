@@ -262,7 +262,7 @@ footer p {
     width: 100%;
 }
 .sub-content {
-    height: 300px;
+    height: auto;
 }
 .sc-right h1 {
     width: 70%;
